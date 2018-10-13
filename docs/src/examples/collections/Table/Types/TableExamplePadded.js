@@ -3,6 +3,7 @@ import { Header, Table, Rating } from 'semantic-ui-react'
 
 const TableExamplePadded = () => (
   <Table celled padded>
+  
     <Table.Header>
       <Table.Row>
         <Table.HeaderCell singleLine>Evidence Rating</Table.HeaderCell>
@@ -25,7 +26,7 @@ const TableExamplePadded = () => (
           <Rating icon='star' defaultRating={3} maxRating={3} />
         </Table.Cell>
         <Table.Cell textAlign='right'>
-          80% <br />
+          85% <br />
           <a href='#'>18 studies</a>
         </Table.Cell>
         <Table.Cell>
